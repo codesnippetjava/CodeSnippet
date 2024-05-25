@@ -2,7 +2,7 @@ package VisibilityProblem;
 
 import VisibilityProblem.SharedFlag;
 
-public class Volatile {
+public class Volatile{
 
     public static void main(String[] args) {
         SharedFlag flag = new SharedFlag();

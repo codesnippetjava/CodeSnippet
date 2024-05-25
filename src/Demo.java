@@ -33,5 +33,10 @@ public class Demo {
 
         map.get(1);
 
+        int x = 5;
+        x *= (3 + 7);
+        System.out.println(x);
+        //System.out.println(x);
+
     }
 }
