@@ -13,7 +13,7 @@ public class AnyMatchExample {
                 new Order(5, 50.0)
         );
 
-        double highValueThreshold = 500.0;
+        double highValueThreshold = 400.0;
 
         boolean hasHighValueOrder = orders.stream()
                 .anyMatch(order -> order.getAmount() > highValueThreshold);
